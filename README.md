@@ -9,12 +9,13 @@
     -c: Checks file if hashes have been generated
     -h: Shows a help message
   filename is required after -g or -c
+  use ./ only if you are in a Linux or Mac OS X environment
 ## What happens inside
   A new file is generated with the same name of your file, adding only a new extension .hash, containing an MD5 hash, SHA1 hash and SHA256 hash inside.
-  
 ## First Run
   It's recommended that you check the script's integrity by running itself on the script(download .hash file alongside the script)
   (./scriptname -c scriptname)
+  If you are on Linux or Mac OS X(not sure about the last one), run chmod +x scriptname before using it.
 ## Licensing
   This script is licensed under a MIT license. Check the file LICENSE in this repository
 ## Changelog
